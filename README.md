@@ -15,8 +15,6 @@
 1. 本 GitHub のリポジトリをご自身の GitHub アカウントに Fork します。
 2. 以下のボタンより、Azure へリソースを Deploy します。
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fapc-y-satake%2Fpoc-openai-search-webapp%2Fmain%2Farm%2Ftemplate.json)
-
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fapc-y-satake%2Fpoc-openai-search-webapp%2Fmain%2Farm%2Ftemplate.json" target="_blank">
   <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
@@ -26,8 +24,8 @@
 - Azure OpenAI Service
 - Azure AI Search
 
-3. Static Web Apps のリソースを作成し、Deploy の設定に先ほどクローンしたリポジトリを設定してください。
-4. Static Web Apps の画面左側メニューの構成から追加をクリックして、アプリケーションの設定の箇所に以下の環境変数を設定します。
+1. Static Web Apps のリソースを作成し、Deploy の設定に先ほどクローンしたリポジトリを設定してください。
+2. Static Web Apps の画面左側メニューの構成から追加をクリックして、アプリケーションの設定の箇所に以下の環境変数を設定します。
 
 ```
 AZURE_OPENAI_API_KEY: Azure OpenAI Service の API キー
